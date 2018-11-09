@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <title>Rick's Discs master template</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+         <meta charset="utf-8">
+         <meta name="Rick's Discs" content="SWDV 235 Project 2 " />
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+               <!-- Bootstrap core CSS -->
+         <script src="Scripts/jquery-2.2.4.min.js"></script>
+         <script src="Scripts/bootstrap.min.js"></script>
+         <link href="Content/bootstrap.min.css" rel="stylesheet" />
+        <!-- Custom styles for this template -->
+         <link href="DiscStyleSheet.css" rel="stylesheet" />
+         <script src="JavaScript.js"></script>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    	<div id="container">
+    
+	<!-- Use the header area for the website name or logo -->
+	<header>Borrow From Rick's Disc Collection</header>
+	
+	<div id="banner" class="desktop">
+	
+		<img src="images/spin.gif" class="logo" alt="banner">
+	
+	</div>
+	
+	<!-- Use the nav area to add hyperlinks to other pages within the website -->
+	<nav>	
+         <ul>
+			<li><a href="index.aspx">Home</a></li>
+			<li><a href="Borrower.aspx">Borrow a Disc</a></li>
+			<li><a href="discs.aspx">Disc Inventory</a></li>
+			<li><a href="artists.aspx">Search by Artist</a></li>
+			<li><a href="contact.aspx">Contact</a></li>
+		 </ul>
+	</nav>
+
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+	    <h3>Rick's Disc Collection</h3>
+	 <div class="text-center">
+         <h4>Browse</h4>
+	 <figure>
+         <figcaption>My Cds</figcaption>
+		<img src="images/compact_disc_logo.png" alt="disc" onclick="mp1()" width="80" height="60">
+     </figure>
+     <figure>
+         <figcaption>My DVDs</figcaption>
+		<img src="images/DVD_Logo.jpg" alt="DVD" onclick="mp2()" width="80" height="60">
+      </figure>
+      <figure>
+          <figcaption>My Blurays</figcaption>
+		<img src="images/Blu-ray-logo.jpg" alt="Blu" onclick="mp3()" width="80" height="60">
+	  </figure>
+      </div>
+          <asp:ContentPlaceHolder id="mainContentPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+	</main>
+
+<footer>
+	<!--Use the footer area to add webpage footer content-->
+
+ <div id="copyright">
+   <p>&copy; Copyright 2018. All Rights Reserved.<br>
+   <a href="mailto:rickmycwi@gmail.com">rickmycwi@gmail.com</a></p>
+ </div>
+ 
+ <div id="social">
+   <p>Connect:</p>
+   <p><a href="https://www.twitter.com"><img src="images/twitter.png" alt="Twitter logo"></a>
+   <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook logo"></a>
+   <a href="https://www.linkedin.com"><img src="images/linkedin.png" alt="Linkedin logo"></a>
+   <a href="https://github.com"><img src="images/github.png" alt="GitHub logo"></a></p>
+ </div>
+ 
+</footer>
+
+	</div>
+</body>
+</html>
