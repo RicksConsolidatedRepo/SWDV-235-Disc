@@ -26,7 +26,7 @@
 	
 	<div id="banner" class="desktop">
 	
-		<img src="images/spin.gif" class="logo" alt="banner">
+		<!--<img src="images/spin.gif" class="logo" alt="logo">-->
 	
 	</div>
 	

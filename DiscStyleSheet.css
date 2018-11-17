@@ -463,7 +463,7 @@ label {
 
 /*Animates the logo*/
 .logo {
-    display: inline;
+    display: inline; 
 }
 
 @-webkit-keyframes logo {
