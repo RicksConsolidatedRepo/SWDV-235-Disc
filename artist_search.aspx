@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="blu_inventory.aspx.cs" Inherits="blu_inventory"
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="artist_search.aspx.cs" Inherits="artist_search" 
  MasterPageFile="~/MasterPage.Master" %>
 
 <asp:Content ID="Content" ContentPlaceHolderID="mainContentPlaceHolder" runat="server">

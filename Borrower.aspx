@@ -1,6 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Borrower.aspx.cs" Inherits="Borrower" 
     MasterPageFile="~/MasterPage.Master" %>
 
+<%--Project 3 update, insert, and delete borrowers table--%>
+
 <asp:Content ID="Content" ContentPlaceHolderID="mainContentPlaceHolder" runat="server">
      <h1>User "tester" has permission to edit, delete, or remove borrowers from the database.</h1>
      <form id="form1" runat="server" class="form-horizontal">

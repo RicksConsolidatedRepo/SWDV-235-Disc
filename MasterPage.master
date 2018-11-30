@@ -1,5 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
 
+<%--created new nav at bottom of page for Project 3 pages
+modified nav for new Project 4 pages 11/30/2018--%>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -34,9 +36,9 @@
 	<nav>	
          <ul>
 			<li><a href="index.aspx">Home</a></li>
-			<li><a href="Borrower.aspx">Borrow a Disc</a></li>
-			<li><a href="discs.aspx">Disc Inventory</a></li>
-			<li><a href="artists.aspx">Search by Artist</a></li>
+			<li><a href="borrow_a_disc.aspx">Borrow a Disc</a></li>
+			<li><a href="disc_history.aspx">Disc History</a></li>
+			<li><a href="artist_search.aspx">Search by Artist</a></li>
 			<li><a href="contact.aspx">Contact</a></li>
 		 </ul>
 	</nav>
@@ -80,7 +82,15 @@
    <a href="https://www.linkedin.com"><img src="images/linkedin.png" alt="Linkedin logo"></a>
    <a href="https://github.com"><img src="images/github.png" alt="GitHub logo"></a></p>
  </div>
- 
+<!-- nav for admin -->
+         <ul style="list-style-type: none; text-align: right; margin-right: 5em; margin-bottom:3em; font-size: 2em">
+			<lh><h3>Links for editor</h3></lh>
+			<li><a href="index.aspx">Home</a></li>
+			<li><a href="Borrower.aspx">Borrowers</a></li>
+			<li><a href="discs.aspx">Inventory</a></li>
+			<li><a href="artists.aspx">Artists</a></li>
+			<li><a href="contact.aspx">Contact</a></li>
+		 </ul>
 </footer>
 
 	</div>

@@ -1,6 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="discs.aspx.cs" Inherits="discs"
     MasterPageFile="~/MasterPage.Master" %>
 
+<%--Project 3 update, insert and delete inventory table--%>
+
 <asp:Content ID="Content" ContentPlaceHolderID="mainContentPlaceHolder" runat="server">
     <h1>User "tester" has permission to edit, delete, or remove discs from the database.</h1>
     <form runat="server">

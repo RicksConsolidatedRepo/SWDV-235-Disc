@@ -1,6 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="artists.aspx.cs" Inherits="artists"
  MasterPageFile="~/MasterPage.Master" %>
 
+<%--Project 3 update, insert and delete artists--%>
+
 <asp:Content ID="Content" ContentPlaceHolderID="mainContentPlaceHolder" runat="server">
     <h1>User "tester" has permission to edit, delete, or remove artists from the database.</h1>
     <form runat="server">
