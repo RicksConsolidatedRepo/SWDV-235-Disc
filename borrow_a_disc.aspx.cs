@@ -16,6 +16,7 @@ public partial class borrow_a_disc : System.Web.UI.Page
     {
         return $"<b>A database error has occurred:</b> {errorMsg}";
     }
+
     protected void dvBorrow_ItemInserted(object sender, DetailsViewInsertedEventArgs e)
     {
         if (e.Exception != null)

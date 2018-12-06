@@ -86,9 +86,9 @@ modified nav for new Project 4 pages 11/30/2018--%>
          <ul style="list-style-type: none; text-align: right; margin-right: 5em; margin-bottom:3em; font-size: 2em">
 			<lh><h3>Links for editor</h3></lh>
 			<li><a href="index.aspx">Home</a></li>
-			<li><a href="Borrower.aspx">Borrowers</a></li>
-			<li><a href="discs.aspx">Inventory</a></li>
-			<li><a href="artists.aspx">Artists</a></li>
+			<li><a href="Borrower.aspx">Edit Borrowers</a></li>
+			<li><a href="discs.aspx">Edit Inventory</a></li>
+			<li><a href="artists.aspx">Edit Artists</a></li>
 			<li><a href="contact.aspx">Contact</a></li>
 		 </ul>
 </footer>

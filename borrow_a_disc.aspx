@@ -25,7 +25,7 @@ updates database on DiscHasBorrower table--%>
                 <InsertItemTemplate>
                     <label for="Borrowerddl">Borrower:</label>
                         <asp:DropDownList ID="Borrowerddl" runat="server" CssClass="form-control" DataSourceID="sqlDataSourceBorrower" 
-                            DataTextField="Fname" DataValueField="BorrowerID" SelectedValue='<%# Bind("BorrowerID") %>'>
+                            DataTextField="full_name" DataValueField="BorrowerID" SelectedValue='<%# Bind("BorrowerID") %>'>
                         </asp:DropDownList>
                  </InsertItemTemplate>
             </asp:TemplateField>
@@ -57,7 +57,7 @@ updates database on DiscHasBorrower table--%>
     </asp:DetailsView>
     <asp:SqlDataSource ID="SqlDataSourceBorrower" runat="server" 
 		ConnectionString="<%$ ConnectionStrings:disk_inventoryConnectionString3 %>" 
-		SelectCommand="SELECT [Fname], [BorrowerID] FROM [Borrower]">
+		SelectCommand="SELECT Concat([Fname], ' ' , [Lname]) AS full_name, [BorrowerID] FROM [Borrower]">
     </asp:SqlDataSource>
     <asp:SqlDataSource ID="SqlDataSourceInventory" runat="server"
 		ConnectionString="<%$ ConnectionStrings:disk_inventoryConnectionString2 %>"
